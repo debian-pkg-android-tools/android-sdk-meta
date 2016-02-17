@@ -1,0 +1,8 @@
+debian/.debhelper/
+debian/*.log
+debian/*.substvars
+debian/android-sdk*/
+debian/debhelper-build-stamp
+debian/files
+debian/source.properties
+debian/tmp/

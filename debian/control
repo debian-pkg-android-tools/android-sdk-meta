@@ -14,6 +14,8 @@ Depends: android-sdk-build-tools,
          android-sdk-common (= ${binary:Version}),
          android-sdk-platform-tools (>= 19),
          proguard,
+         libgl1-mesa-glx,
+         libosmesa6,
          libswt-gtk-3-java,
          ${misc:Depends}
 Description: Software development kit for Android platform

@@ -1,0 +1,7 @@
+usr/bin/proguard               usr/lib/android-sdk/tools/proguard/bin/proguard
+usr/bin/proguardgui            usr/lib/android-sdk/tools/proguard/bin/proguardgui
+usr/share/java/proguard.jar    usr/lib/android-sdk/tools/proguard/lib/proguard.jar
+usr/share/java/proguardgui.jar usr/lib/android-sdk/tools/proguard/lib/proguardgui.jar
+usr/share/java/retrace.jar     usr/lib/android-sdk/tools/proguard/lib/retrace.jar
+usr/share/java/swt.jar         usr/lib/android-sdk/tools/lib/x86_64/swt.jar
+usr/share/java/swt.jar         usr/lib/android-sdk/tools/lib/x86/swt.jar

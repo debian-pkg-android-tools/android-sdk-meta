@@ -1,0 +1,123 @@
+Source: android-sdk-meta
+Section: metapackages
+Priority: optional
+Maintainer: Android tools Maintainer <android-tools-devel@lists.alioth.debian.org>
+Uploaders: Kai-Chung Yan <seamlikok@gmail.com>
+Build-Depends: debhelper (>=9), dh-exec
+Standards-Version: 3.9.7
+Vcs-Git: https://anonscm.debian.org/git/android-tools/android-sdk-meta.git
+Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/android-sdk-meta.git
+
+Package: android-sdk
+Architecture: amd64 i386
+Depends: android-sdk-build-tools,
+         android-sdk-platform-tools (>= 19),
+         android-sdk-tools (>= ${binary:Version}),
+         ${misc:Depends}
+Description: Software development kit for Android platform
+ The Android SDK includes a variety of tools that help you develop mobile
+ applications for the Android platform. The tools are classified into 3 groups:
+ SDK Tools, Platform-tools and Build-tools.
+ .
+ This metapackage pulls the entire Android SDK.
+
+Package: android-sdk-tools
+Architecture: amd64 i386
+Depends: android-sdk-tools-common (= ${binary:Version}),
+         proguard,
+         libswt-gtk-3-java,
+         ${misc:Depends}
+Description: Base toolset of Android SDK
+ The Android SDK includes a variety of tools that help you develop mobile
+ applications for the Android platform. The tools are classified into 3 groups:
+ SDK Tools, Platform-tools and Build-tools.
+ .
+ SDK Tools are platform independent and are required no matter which Android
+ platform you are developing on.
+ .
+ This package pulls Android SDK Tools.
+
+Package: android-sdk-tools-common
+Architecture: any
+Section: devel
+Depends: ${misc:Depends}
+Description: Base toolset of Android SDK - Common files
+ The Android SDK includes a variety of tools that help you develop mobile
+ applications for the Android platform. The tools are classified into 3 groups:
+ SDK Tools, Platform-tools and Build-tools.
+ .
+ SDK Tools are platform independent and are required no matter which Android
+ platform you are developing on.
+ .
+ This package provides common files of Android SDK Tools.
+
+Package: android-sdk-platform-tools
+Architecture: amd64 i386
+Depends: adb (>= 1:6.0.1+r16),
+         dmtracedump (>= 6.0.1+r16),
+         etc1tool (>= 6.0.1+r16),
+         fastboot (>= 1:6.0.1+r16),
+         hprof-conv (>= 6.0.1+r16),
+         sqlite3,
+         ${misc:Depends}
+Description: Tools for interacting with an Android platform
+ The Android SDK includes a variety of tools that help you develop mobile
+ applications for the Android platform. The tools are classified into 3 groups:
+ SDK Tools, Platform-tools and Build-tools.
+ .
+ Platform-tools are customized to support the features of the latest Android
+ platform.
+ .
+ This package pulls Android SDK Platform-tools.
+
+Package: android-sdk-platform-tools-common
+Section: devel
+Architecture: any
+Depends: ${misc:Depends}
+Description: Tools for interacting with an Android platform - Common files
+ The Android SDK includes a variety of tools that help you develop mobile
+ applications for the Android platform. The tools are classified into 3 groups:
+ SDK Tools, Platform-tools and Build-tools.
+ .
+ Platform-tools are customized to support the features of the latest Android
+ platform.
+ .
+ This package provides common files of Android SDK Platform-tools. It also
+ provides an UDEV rules enabling adb and fastboot to work without root access to
+ the host machine.
+
+Package: android-sdk-build-tools
+Architecture: amd64 i386
+Depends: android-sdk-build-tools-common (= ${binary:Version}),
+         aapt (>= 1:6.0.1+r16),
+         aidl (>= 1:6.0.1+r16),
+         dexdump (>= 6.0.1+r16),
+         dalvik-exchange (>= 6.0.1+r16),
+         libclang1-3.7,
+         libllvm3.7,
+         split-select (>= 1:6.0.1+r16),
+         zipalign (>= 1:6.0.1+r16),
+         ${misc:Depends}
+Description: Tools for building Android applications
+ The Android SDK includes a variety of tools that help you develop mobile
+ applications for the Android platform. The tools are classified into 3 groups:
+ SDK Tools, Platform-tools and Build-tools.
+ .
+ Build-tools is a component of the Android SDK required for building Android
+ application code.
+ .
+ This package pulls Android SDK Build-tool.
+
+Package: android-sdk-build-tools-common
+Section: devel
+Architecture: any
+Depends: ${misc:Depends}
+Description: Tools for building Android applications - Common files
+ The Android SDK includes a variety of tools that help you develop mobile
+ applications for the Android platform. The tools are classified into 3 groups:
+ SDK Tools, Platform-tools and Build-tools.
+ .
+ Build-tools is a component of the Android SDK required for building Android
+ application code.
+ .
+ This package provides common files of Android SDK Build-tools.

@@ -1,3 +1,9 @@
+android-sdk-meta (24.3.3+1) UNRELEASED; urgency=medium
+
+  * d/android-sdk.links: Set mode executable (for dh-exec)
+
+ -- Kai-Chung Yan <seamlikok@gmail.com>  Sun, 21 Feb 2016 15:02:26 +0800
+
 android-sdk-meta (24.3.3) unstable; urgency=low
 
   * Initial release

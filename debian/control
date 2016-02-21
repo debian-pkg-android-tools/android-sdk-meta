@@ -45,6 +45,7 @@ Description: Common files of Android SDK base toolset
 Package: android-sdk-platform-tools
 Architecture: amd64 i386
 Depends: adb (>= 1:6.0.1+r16),
+         android-sdk-platform-tools-common (= ${source:Version}),
          dmtracedump (>= 6.0.1+r16),
          etc1tool (>= 6.0.1+r16),
          fastboot (>= 1:6.0.1+r16),

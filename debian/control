@@ -11,7 +11,7 @@ Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/android-sdk-meta.git
 Package: android-sdk
 Architecture: amd64 i386
 Depends: android-sdk-build-tools,
-         android-sdk-common (= ${binary:Version}),
+         android-sdk-common (= ${source:Version}),
          android-sdk-platform-tools (>= 19),
          proguard,
          libgl1-mesa-glx,
@@ -29,7 +29,7 @@ Description: Software development kit for Android platform
  This metapackage pulls the entire Android SDK.
 
 Package: android-sdk-common
-Architecture: any
+Architecture: all
 Section: devel
 Depends: ${misc:Depends}
 Description: Common files of Android SDK base toolset
@@ -63,7 +63,7 @@ Description: Tools for interacting with an Android platform
 
 Package: android-sdk-platform-tools-common
 Section: devel
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}
 Description: Tools for interacting with an Android platform - Common files
  The Android SDK includes a variety of tools that help you develop mobile
@@ -79,11 +79,12 @@ Description: Tools for interacting with an Android platform - Common files
 
 Package: android-sdk-build-tools
 Architecture: amd64 i386
-Depends: android-sdk-build-tools-common (= ${binary:Version}),
+Depends: android-sdk-build-tools-common (= ${source:Version}),
          aapt (>= 1:6.0.1+r16),
          aidl (>= 1:6.0.1+r16),
-         dexdump (>= 6.0.1+r16),
          dalvik-exchange (>= 6.0.1+r16),
+         dexdump (>= 6.0.1+r16),
+         libc++1,
          libclang1-3.7,
          libllvm3.7,
          split-select (>= 1:6.0.1+r16),
@@ -101,7 +102,7 @@ Description: Tools for building Android applications
 
 Package: android-sdk-build-tools-common
 Section: devel
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}
 Description: Tools for building Android applications - Common files
  The Android SDK includes a variety of tools that help you develop mobile

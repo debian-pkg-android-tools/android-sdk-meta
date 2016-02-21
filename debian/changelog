@@ -1,9 +1,10 @@
 android-sdk-meta (24.3.3+1) UNRELEASED; urgency=medium
 
-  * d/android-sdk.links: Set mode executable (for dh-exec)
+  * d/android-sdk.links: Set mode executable (for dh-exec) (Closes: #815340)
   * d/control:
     - Architectures of all common packages set to "all"
     - android-sdk-platform-tools depends on android-sdk-platform-tools-common
+      (Closes: #815332)
 
  -- Kai-Chung Yan <seamlikok@gmail.com>  Sun, 21 Feb 2016 15:02:26 +0800
 

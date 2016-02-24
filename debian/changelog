@@ -1,4 +1,4 @@
-android-sdk-meta (24.3.3+1) UNRELEASED; urgency=medium
+android-sdk-meta (24.3.3+1) unstable; urgency=medium
 
   * d/android-sdk.links: Set mode executable (for dh-exec) (Closes: #815340)
   * d/control:

@@ -8,7 +8,7 @@ PLATFORM_TOOLS_VERSION = 23.0.0
 
 override_dh_gencontrol:
 	dh_gencontrol
-	dh_gencontrol -pandroid-sdk-platform-tools -- -v$(PLATFORM_TOOLS_VERSION)+1
-	dh_gencontrol -pandroid-sdk-platform-tools-common -- -v$(PLATFORM_TOOLS_VERSION)+1
-	dh_gencontrol -pandroid-sdk-build-tools -- -v$(BUILD_TOOLS_VERSION)+1
-	dh_gencontrol -pandroid-sdk-build-tools-common -- -v$(BUILD_TOOLS_VERSION)+1
+	dh_gencontrol -pandroid-sdk-platform-tools -- -v$(PLATFORM_TOOLS_VERSION)+2
+	dh_gencontrol -pandroid-sdk-platform-tools-common -- -v$(PLATFORM_TOOLS_VERSION)+2
+	dh_gencontrol -pandroid-sdk-build-tools -- -v$(BUILD_TOOLS_VERSION)+2
+	dh_gencontrol -pandroid-sdk-build-tools-common -- -v$(BUILD_TOOLS_VERSION)+2

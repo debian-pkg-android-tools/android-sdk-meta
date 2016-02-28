@@ -11,7 +11,7 @@ Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/android-sdk-meta.git
 Package: android-sdk
 Architecture: amd64 i386
 Depends: android-sdk-build-tools,
-         android-sdk-common (= ${source:Version}),
+         android-sdk-common (>= ${source:Version}),
          android-sdk-platform-tools (>= 19),
          proguard,
          libgl1-mesa-glx,
@@ -45,7 +45,7 @@ Description: Common files of Android SDK base toolset
 Package: android-sdk-platform-tools
 Architecture: amd64 i386
 Depends: adb (>= 1:6.0.1+r16),
-         android-sdk-platform-tools-common (= ${source:Version}),
+         android-sdk-platform-tools-common (>= 23),
          dmtracedump (>= 6.0.1+r16),
          etc1tool (>= 6.0.1+r16),
          fastboot (>= 1:6.0.1+r16),
@@ -80,7 +80,7 @@ Description: Tools for interacting with an Android platform - Common files
 
 Package: android-sdk-build-tools
 Architecture: amd64 i386
-Depends: android-sdk-build-tools-common (= ${source:Version}),
+Depends: android-sdk-build-tools-common (>= 23.0.2),
          aapt (>= 1:6.0.1+r16),
          aidl (>= 1:6.0.1+r16),
          dalvik-exchange (>= 6.0.1+r16),

@@ -1,7 +1,12 @@
 android-sdk-meta (24.3.3+3) UNRELEASED; urgency=medium
 
   * Team Upload.
+
+  [ Chirayu Desai ]
   * d/control: android-sdk depends on default-jdk (Closes: #826761)
+
+  [ Mouaad Aallam ]
+  * d/control: android-sdk recommends gradle (Closes: #826870)
 
  -- Chirayu Desai <chirayudesai1@gmail.com>  Fri, 10 Jun 2016 18:20:06 +0530
 

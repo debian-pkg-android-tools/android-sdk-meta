@@ -20,6 +20,7 @@ Depends: android-sdk-build-tools,
          libswt-gtk-3-java,
          ${misc:Depends}
 Recommends: gradle
+Suggests: maven
 Description: Software development kit for Android platform
  The Android SDK includes a variety of tools that help you develop mobile
  applications for the Android platform. The tools are classified into 3 groups:

@@ -8,6 +8,7 @@ android-sdk-meta (24.3.3+3) UNRELEASED; urgency=medium
   [ Mouaad Aallam ]
   * d/control: android-sdk recommends gradle (Closes: #826870)
                android-sdk suggests maven
+  * Add llvm-rs-cc stub
 
  -- Chirayu Desai <chirayudesai1@gmail.com>  Fri, 10 Jun 2016 18:20:06 +0530
 

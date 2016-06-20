@@ -1,3 +1,4 @@
 #!/usr/bin/dh-exec
 
 build-tools/source.properties   usr/lib/android-sdk/build-tools/${BUILD_TOOLS_VERSION}
+build-tools/llvrm-rs-cc         usr/lib/android-sdk/build-tools/${BUILD_TOOLS_VERSION}

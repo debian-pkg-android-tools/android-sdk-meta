@@ -6,10 +6,11 @@ android-sdk-meta (24.3.3+3) unstable; urgency=medium
   [ Mouaad Aallam ]
   * d/control: android-sdk recommends gradle (Closes: #826870)
                android-sdk suggests maven
-  * Add llvm-rs-cc stub (Temporarily, for #827215)
+  * Add llvm-rs-cc stub. (Temporarily, for #827215)
 
   [ Markus Koschany ]
   * Declare compliance with Debian Policy 3.9.8.
+  * d/control: android-sdk depends on default-jdk | java8-runtime.
 
  -- Chirayu Desai <chirayudesai1@gmail.com>  Sat, 20 Aug 2016 12:35:40 +0530
 

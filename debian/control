@@ -14,7 +14,7 @@ Architecture: amd64 i386
 Depends: android-sdk-build-tools,
          android-sdk-common (>= ${source:Version}),
          android-sdk-platform-tools (>= 19),
-         default-jdk,
+         default-jdk | java8-runtime,
          proguard,
          libgl1-mesa-glx,
          libosmesa6,

@@ -1,4 +1,4 @@
-android-sdk-meta (24.3.3+3) UNRELEASED; urgency=medium
+android-sdk-meta (24.3.3+3) unstable; urgency=medium
 
   [ Chirayu Desai ]
   * d/control: android-sdk depends on default-jdk (Closes: #826761)

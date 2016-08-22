@@ -8,6 +8,9 @@ android-sdk-meta (24.3.3+3) UNRELEASED; urgency=medium
                android-sdk suggests maven
   * Add llvm-rs-cc stub (Temporarily, for #827215)
 
+  [ Markus Koschany ]
+  * Declare compliance with Debian Policy 3.9.8.
+
  -- Chirayu Desai <chirayudesai1@gmail.com>  Sat, 20 Aug 2016 12:35:40 +0530
 
 android-sdk-meta (24.3.3+2) unstable; urgency=medium

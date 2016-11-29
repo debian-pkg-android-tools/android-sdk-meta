@@ -1,5 +1,3 @@
 #!/usr/bin/dh-exec
 
-usr/lib/${DEB_HOST_MULTIARCH}/libc++.so.1       usr/lib/android-sdk/build-tools/${BUILD_TOOLS_VERSION}/lib/libc++.so
-usr/lib/${DEB_HOST_MULTIARCH}/libclang-3.7.so.1 usr/lib/android-sdk/build-tools/${BUILD_TOOLS_VERSION}/lib/libclang.so
-usr/lib/${DEB_HOST_MULTIARCH}/libLLVM-3.7.so.1  usr/lib/android-sdk/build-tools/${BUILD_TOOLS_VERSION}/lib/libLLVM.so
+# Will be used in Nougat SDK

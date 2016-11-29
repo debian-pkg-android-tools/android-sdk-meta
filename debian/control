@@ -16,9 +16,6 @@ Depends: android-sdk-build-tools,
          android-sdk-platform-tools (>= 19),
          default-jdk-headless | default-jdk | java8-runtime-headless,
          proguard,
-         libgl1-mesa-glx,
-         libosmesa6,
-         libswt-gtk-3-java,
          ${misc:Depends}
 Recommends: gradle
 Suggests: maven
@@ -89,9 +86,6 @@ Depends: android-sdk-build-tools-common (>= 23.0.2),
          aidl (>= 1:6.0.1+r16),
          dalvik-exchange (>= 6.0.1+r16),
          dexdump (>= 6.0.1+r16),
-         libc++1,
-         libclang1-3.7,
-         libllvm3.7,
          split-select (>= 1:6.0.1+r16),
          zipalign (>= 1:6.0.1+r16),
          ${misc:Depends}

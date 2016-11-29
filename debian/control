@@ -17,8 +17,8 @@ Depends: android-sdk-build-tools,
          default-jdk-headless | default-jdk | java8-runtime-headless,
          proguard,
          ${misc:Depends}
-Recommends: gradle
-Suggests: maven
+Recommends: gradle, libgradle-android-plugin-java
+Suggests: maven, android-sdk-platform-23
 Description: Software development kit for Android platform
  The Android SDK includes a variety of tools that help you develop mobile
  applications for the Android platform. The tools are classified into 3 groups:

@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Android tools Maintainer <android-tools-devel@lists.alioth.debian.org>
 Uploaders: Kai-Chung Yan <seamlikok@gmail.com>,
            Chirayu Desai <chirayudesai1@gmail.com>
-Build-Depends: debhelper (>=9), dh-exec
+Build-Depends: debhelper (>= 10), dh-exec
 Standards-Version: 3.9.8
 Vcs-Git: https://anonscm.debian.org/git/android-tools/android-sdk-meta.git
 Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/android-sdk-meta.git

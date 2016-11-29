@@ -1,3 +1,10 @@
+android-sdk-meta (24.3.3+4) UNRELEASED; urgency=medium
+
+  * Update to debhelper 10
+  * No longer install symlinks to shared libraries or SWT (Closes: #840044)
+
+ -- Kai-Chung Yan <seamlikok@gmail.com>  Tue, 29 Nov 2016 14:00:09 +0800
+
 android-sdk-meta (24.3.3+3) unstable; urgency=medium
 
   [ Chirayu Desai ]

@@ -2,13 +2,14 @@
 
 export BUILD_TOOLS_VERSION = 23.0.2
 PLATFORM_TOOLS_VERSION = 23.0.0
+DEB_REVISION = 4
 
 %:
 	dh $@
 
 override_dh_gencontrol:
 	dh_gencontrol
-	dh_gencontrol -pandroid-sdk-platform-tools -- -v$(PLATFORM_TOOLS_VERSION)+3
-	dh_gencontrol -pandroid-sdk-platform-tools-common -- -v$(PLATFORM_TOOLS_VERSION)+3
-	dh_gencontrol -pandroid-sdk-build-tools -- -v$(BUILD_TOOLS_VERSION)+3
-	dh_gencontrol -pandroid-sdk-build-tools-common -- -v$(BUILD_TOOLS_VERSION)+3
+	dh_gencontrol -pandroid-sdk-platform-tools -- -v$(PLATFORM_TOOLS_VERSION)+$(DEB_REVISION)
+	dh_gencontrol -pandroid-sdk-platform-tools-common -- -v$(PLATFORM_TOOLS_VERSION)+$(DEB_REVISION)
+	dh_gencontrol -pandroid-sdk-build-tools -- -v$(BUILD_TOOLS_VERSION)+$(DEB_REVISION)
+	dh_gencontrol -pandroid-sdk-build-tools-common -- -v$(BUILD_TOOLS_VERSION)+$(DEB_REVISION)

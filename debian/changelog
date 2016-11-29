@@ -2,6 +2,10 @@ android-sdk-meta (24.3.3+4) UNRELEASED; urgency=medium
 
   * Update to debhelper 10
   * No longer install symlinks to shared libraries or SWT (Closes: #840044)
+  * d/control:
+    * Unify the Maintainer name to "Android Tools Maintainers"
+    * Recommends libgradle-android-plugin-java
+    * Suggests android-sdk-platform-23
 
  -- Kai-Chung Yan <seamlikok@gmail.com>  Tue, 29 Nov 2016 14:00:09 +0800
 

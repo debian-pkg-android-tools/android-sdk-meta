@@ -14,6 +14,7 @@ Architecture: amd64 i386
 Depends: android-sdk-build-tools,
          android-sdk-common (>= ${source:Version}),
          android-sdk-platform-tools (>= 19),
+         android-platform-tools-base,
          default-jdk-headless | default-jdk | java8-runtime-headless,
          proguard,
          ${misc:Depends}

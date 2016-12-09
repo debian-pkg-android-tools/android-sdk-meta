@@ -1,4 +1,2 @@
-#!/usr/bin/dh-exec
-
-build-tools/source.properties   usr/lib/android-sdk/build-tools/${BUILD_TOOLS_VERSION}
-build-tools/llvm-rs-cc          usr/lib/android-sdk/build-tools/${BUILD_TOOLS_VERSION}
+build-tools/source.properties   usr/lib/android-sdk/build-tools/debian
+build-tools/llvm-rs-cc          usr/lib/android-sdk/build-tools/debian

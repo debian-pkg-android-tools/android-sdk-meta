@@ -1,3 +1,23 @@
+android-sdk-meta (25.0.0) UNRELEASED; urgency=medium
+
+  * Tracking new upstream versions:
+    * SDK => 25.0.0
+    * Build-tools => 24.0.0
+    * Platform-tools => 24.0.0
+    * AOSP tags:
+      * gradle_${latest} => gradle_2.0.0
+      * android-${latest} => android-7.0.0_r1
+  * Put default-jdk-headless to Recommends: JDK isn't necessary for running the
+    SDK.
+  * Add a "runtime.properties" file to build-tools
+  * Add a "package.xml" to tools
+  * Enable builds for ARM & MIPS
+  * Install Build-tools of version "debian" and create a symlink of the real
+    version to it.
+  * Add d/README.* to explain the origins of some files
+
+ -- Kai-Chung Yan <seamlikok@gmail.com>  Fri, 09 Dec 2016 17:01:37 +0800
+
 android-sdk-meta (24.3.3+4) unstable; urgency=medium
 
   * Update to debhelper 10

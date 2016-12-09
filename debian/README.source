@@ -1,0 +1,9 @@
+tools/proguard/proguard-*.txt
+=============================
+
+Copied from https://android.googlesource.com/platform/sdk/+/gradle_${latest}/files
+
+51-android.rules
+================
+
+Copied from https://wiki.cyanogenmod.org/w/UDEV

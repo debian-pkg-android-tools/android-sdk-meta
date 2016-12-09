@@ -10,7 +10,7 @@ Vcs-Git: https://anonscm.debian.org/git/android-tools/android-sdk-meta.git
 Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/android-sdk-meta.git
 
 Package: android-sdk
-Architecture: amd64 i386
+Architecture: amd64 i386 armel armhf arm64 mips mipsel mips64el
 Depends: android-sdk-build-tools,
          android-sdk-common (>= ${source:Version}),
          android-sdk-platform-tools (>= 19),
@@ -45,13 +45,13 @@ Description: Common files of Android SDK base toolset
  This package provides common files of Android SDK Tools.
 
 Package: android-sdk-platform-tools
-Architecture: amd64 i386
 Depends: adb (>= 1:6.0.1+r16),
          android-sdk-platform-tools-common (>= 23),
          dmtracedump (>= 6.0.1+r16),
          etc1tool (>= 6.0.1+r16),
          fastboot (>= 1:6.0.1+r16),
          hprof-conv (>= 6.0.1+r16),
+Architecture: amd64 i386 armel armhf arm64 mips mipsel mips64el
          sqlite3,
          ${misc:Depends}
 Description: Tools for interacting with an Android platform
@@ -81,7 +81,6 @@ Description: Tools for interacting with an Android platform - Common files
  the host machine.
 
 Package: android-sdk-build-tools
-Architecture: amd64 i386
 Depends: android-sdk-build-tools-common (>= 23.0.2),
          aapt (>= 1:6.0.1+r16),
          aidl (>= 1:6.0.1+r16),
@@ -89,6 +88,7 @@ Depends: android-sdk-build-tools-common (>= 23.0.2),
          dexdump (>= 6.0.1+r16),
          split-select (>= 1:6.0.1+r16),
          zipalign (>= 1:6.0.1+r16),
+Architecture: amd64 i386 armel armhf arm64 mips mipsel mips64el
          ${misc:Depends}
 Description: Tools for building Android applications
  The Android SDK includes a variety of tools that help you develop mobile

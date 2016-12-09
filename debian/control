@@ -13,13 +13,13 @@ Package: android-sdk
 Architecture: amd64 i386 armel armhf arm64 mips mipsel mips64el
 Depends: android-sdk-build-tools,
          android-sdk-common (>= ${source:Version}),
-         default-jdk-headless | default-jdk | java8-runtime-headless,
          android-sdk-platform-tools (>= 20),
          android-platform-tools-base (>= 2.0.0),
+         default-jre-headless (>= 2:1.8) | java8-runtime-headless,
          proguard,
          ${misc:Depends}
-Recommends: gradle, libgradle-android-plugin-java
-Suggests: maven, android-sdk-platform-23
+Recommends: gradle, default-jdk-headless
+Suggests: maven, android-sdk-platform-23, libgradle-android-plugin-java
 Description: Software development kit for Android platform
  The Android SDK includes a variety of tools that help you develop mobile
  applications for the Android platform. The tools are classified into 3 groups:

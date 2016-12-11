@@ -1,4 +1,4 @@
-android-sdk-meta (25.0.0) UNRELEASED; urgency=medium
+android-sdk-meta (25.0.0) unstable; urgency=medium
 
   * Tracking new upstream versions:
     * SDK => 25.0.0
@@ -16,7 +16,7 @@ android-sdk-meta (25.0.0) UNRELEASED; urgency=medium
     version to it.
   * Add d/README.* to explain the origins of some files
 
- -- Kai-Chung Yan <seamlikok@gmail.com>  Fri, 09 Dec 2016 17:01:37 +0800
+ -- Kai-Chung Yan <seamlikok@gmail.com>  Sun, 11 Dec 2016 20:44:23 +0800
 
 android-sdk-meta (24.3.3+4) unstable; urgency=medium
 

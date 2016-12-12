@@ -7,3 +7,18 @@ Copied from https://android.googlesource.com/platform/sdk/+/gradle_${latest}/fil
 ================
 
 Copied from https://wiki.cyanogenmod.org/w/UDEV
+
+licenses/apache-2.0
+===================
+
+The filename must be identical to the "id" attribute of the "license" nodes in
+"package.xml" in all Android SDK packages, including this package and
+"android-sdk-platform-*".
+
+The content is the SHA1 hash of the text content of the "license" nodes, at
+least for now it's SHA1 hash. See getLicenseHash() in [1].
+
+This file is mandatory for telling the build system that the user has accepted
+the licenses, otherwise error.
+
+[1]: https://android.googlesource.com/platform/tools/base/+/gradle_2.2.2/repository/src/main/java/com/android/repository/api/License.java

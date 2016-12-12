@@ -1,3 +1,10 @@
+android-sdk-meta (25.0.0+1) unstable; urgency=medium
+
+  * Add package.xml for Build-tools and Platform-tools
+  * Add licenses/ directory. See README.source for explanation.
+
+ -- Kai-Chung Yan <seamlikok@gmail.com>  Tue, 13 Dec 2016 00:50:13 +0800
+
 android-sdk-meta (25.0.0) unstable; urgency=medium
 
   * Tracking new upstream versions:

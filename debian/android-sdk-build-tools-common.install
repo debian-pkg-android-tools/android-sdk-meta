@@ -1,2 +1,1 @@
-build-tools/source.properties   usr/lib/android-sdk/build-tools/debian
-build-tools/llvm-rs-cc          usr/lib/android-sdk/build-tools/debian
+build-tools/*          usr/lib/android-sdk/build-tools/debian

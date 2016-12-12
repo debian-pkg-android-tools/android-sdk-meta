@@ -1,2 +1,2 @@
 51-android.rules                 lib/udev/rules.d
-platform-tools/source.properties usr/lib/android-sdk/platform-tools
+platform-tools/*                 usr/lib/android-sdk/platform-tools

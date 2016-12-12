@@ -47,7 +47,7 @@ Description: Common files of Android SDK base toolset
 Package: android-sdk-platform-tools
 Architecture: amd64 i386 armel armhf arm64 mips mipsel mips64el
 Depends: adb (>= 1:7.0.0+r1),
-         android-sdk-platform-tools-common,
+         android-sdk-platform-tools-common (>= 24.0.0~),
          dmtracedump (>= 7.0.0+r1),
          etc1tool (>= 7.0.0+r1),
          fastboot (>= 1:7.0.0+r1),
@@ -82,7 +82,7 @@ Description: Tools for interacting with an Android platform - Common files
 
 Package: android-sdk-build-tools
 Architecture: amd64 i386 armel armhf arm64 mips mipsel mips64el
-Depends: android-sdk-build-tools-common,
+Depends: android-sdk-build-tools-common (>= 24.0.0~),
          aapt (>= 1:7.0.0+r1),
          aidl (>= 1:7.0.0+r1),
          dalvik-exchange (>= 7.0.0+r1),

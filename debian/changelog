@@ -1,3 +1,9 @@
+android-sdk-meta (25.0.0+2) unstable; urgency=medium
+
+  * Install licenses directory in android-sdk-common
+
+ -- Kai-Chung Yan <seamlikok@gmail.com>  Tue, 07 Feb 2017 22:38:05 +0800
+
 android-sdk-meta (25.0.0+1) unstable; urgency=medium
 
   * Add package.xml for Build-tools and Platform-tools

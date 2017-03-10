@@ -1,8 +1,12 @@
 android-sdk-meta (25.0.0+3) unstable; urgency=medium
 
   * udev rules for Intel tablets (Closes: #814056)
+  * update debian/changelog for upload
+  * add myself to Uploaders
+  * fix grammar mistake in description (Closes: #855542)
+  * only Depend on proguard-cli (Closes: #856410)
 
- -- Hans-Christoph Steiner <hans@eds.org>  Tue, 28 Feb 2017 23:48:27 +0100
+ -- Hans-Christoph Steiner <hans@eds.org>  Fri, 10 Mar 2017 22:23:19 +0100
 
 android-sdk-meta (25.0.0+2) unstable; urgency=medium
 

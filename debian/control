@@ -17,7 +17,7 @@ Depends: android-sdk-build-tools,
          android-sdk-platform-tools (>= 20),
          android-platform-tools-base (>= 2.0.0),
          default-jre-headless (>= 2:1.8) | java8-runtime-headless,
-         proguard,
+         proguard-cli,
          ${misc:Depends}
 Recommends: gradle, default-jdk-headless
 Suggests: maven, android-sdk-platform-23, libgradle-android-plugin-java

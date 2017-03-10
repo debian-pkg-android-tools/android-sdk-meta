@@ -78,7 +78,7 @@ Description: Tools for interacting with an Android platform - Common files
  platform.
  .
  This package provides common files of Android SDK Platform-tools. It also
- provides an UDEV rules enabling adb and fastboot to work without root access to
+ provides UDEV rules enabling adb and fastboot to work without root access to
  the host machine.
 
 Package: android-sdk-build-tools

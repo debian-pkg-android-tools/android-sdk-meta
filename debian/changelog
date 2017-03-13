@@ -1,3 +1,9 @@
+android-sdk-meta (25.0.0+4) unstable; urgency=medium
+
+  * d/rules: Automate the Debian revision in the versions of binary packages
+
+ -- Kai-Chung Yan <seamlikok@gmail.com>  Mon, 13 Mar 2017 18:07:22 +0800
+
 android-sdk-meta (25.0.0+3) unstable; urgency=medium
 
   * udev rules for Intel tablets (Closes: #814056)

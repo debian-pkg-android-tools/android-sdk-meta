@@ -1,4 +1,17 @@
-# Amazon Fire TV Stick
+# Allwinner / Onda (Unverified)
+SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1001", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1002", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1003", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1004", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1005", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1006", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1007", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1008", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1009", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="efe8", TAG+="uaccess"
+# Amazon / Lab126, Inc.
+SUBSYSTEM=="usb", ATTR{idVendor}=="1949", ATTR{idProduct}=="0006", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="1949", ATTR{idProduct}=="0008", TAG+="uaccess"
 SUBSYSTEM=="usb", ATTR{idVendor}=="1949", ATTR{idProduct}=="0022", TAG+="uaccess"
 #Acer
 SUBSYSTEM=="usb", ATTR{idVendor}=="0502", ATTR{idProduct}=="3604", TAG+="uaccess"
@@ -6,7 +19,26 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="0502", ATTR{idProduct}=="3325", TAG+="uaccess
 SUBSYSTEM=="usb", ATTR{idVendor}=="0502", ATTR{idProduct}=="3202", TAG+="uaccess"
 SUBSYSTEM=="usb", ATTR{idVendor}=="0502", ATTR{idProduct}=="3203", TAG+="uaccess"
 #ASUS
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="179e", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="179f", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="17a1", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c80", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c90", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c91", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="4ca0", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="4ca1", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="4d00", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="4d01", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="4daf", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="5410", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="5412", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="550f", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="7772", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="7773", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="7774", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="7775", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="7776", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="7777", TAG+="uaccess"
 #Dell
 SUBSYSTEM=="usb", ATTR{idVendor}=="413c", TAG+="uaccess"
 # Fairphone 2
@@ -67,7 +99,8 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="0471", TAG+="uaccess"
 #PMC-Sierra
 SUBSYSTEM=="usb", ATTR{idVendor}=="04da", TAG+="uaccess"
 #Qualcomm
-SUBSYSTEM=="usb", ATTR{idVendor}=="05c6", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="05c6", ATTR{idProduct}=="6769", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="05c6", ATTR{idProduct}=="9025", TAG+="uaccess"
 #SK Telesys
 SUBSYSTEM=="usb", ATTR{idVendor}=="1f53", TAG+="uaccess"
 #Samsung
@@ -85,6 +118,10 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="0930", TAG+="uaccess"
 # XiaoMi
 SUBSYSTEM=="usb", ATTR{idVendor}=="2717", TAG+="uaccess"
 #ZTE
-SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", ATTR{idProduct}=="1351", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", ATTR{idProduct}=="1353", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", ATTR{idProduct}=="1354", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", ATTR{idProduct}=="1355", TAG+="uaccess"
 #ZUK
 SUBSYSTEM=="usb", ATTR{idVendor}=="2b4c", TAG+="uaccess"
+

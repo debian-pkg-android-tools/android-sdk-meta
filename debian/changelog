@@ -1,3 +1,13 @@
+android-sdk-meta (25.0.0+6) unstable; urgency=medium
+
+  * use HTTPS URL for debian/copyright
+  * point Vcs tags to salsa.debian.org
+  * Standards-Version: 4.1.3 no changes
+  * add new vendors to udev rules (Closes: #877704)
+  * switch from plugdev to uaccess (Closes: #882688)
+
+ -- Hans-Christoph Steiner <hans@eds.org>  Thu, 01 Mar 2018 01:01:47 +0100
+
 android-sdk-meta (25.0.0+5) unstable; urgency=medium
 
   * correct my git mistake, this has all of +3 and +4

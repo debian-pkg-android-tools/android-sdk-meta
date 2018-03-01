@@ -5,130 +5,133 @@ SUBSYSTEM!="usb", GOTO="android_usb_rules_end"
 LABEL="android_usb_rules_begin"
 
 # Allwinner / Onda (Unverified)
-ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1001", TAG+="uaccess"
-ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1002", TAG+="uaccess"
-ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1003", TAG+="uaccess"
-ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1004", TAG+="uaccess"
-ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1005", TAG+="uaccess"
-ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1006", TAG+="uaccess"
-ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1007", TAG+="uaccess"
-ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1008", TAG+="uaccess"
-ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1009", TAG+="uaccess"
-ATTR{idVendor}=="1f3a", ATTR{idProduct}=="efe8", TAG+="uaccess"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1001", ENV{adb_user}="yes"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1002", ENV{adb_user}="yes"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1003", ENV{adb_user}="yes"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1004", ENV{adb_user}="yes"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1005", ENV{adb_user}="yes"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1006", ENV{adb_user}="yes"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1007", ENV{adb_user}="yes"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1008", ENV{adb_user}="yes"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1009", ENV{adb_user}="yes"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="efe8", ENV{adb_user}="yes"
 # Amazon / Lab126, Inc.
-ATTR{idVendor}=="1949", ATTR{idProduct}=="0006", TAG+="uaccess"
-ATTR{idVendor}=="1949", ATTR{idProduct}=="0008", TAG+="uaccess"
-ATTR{idVendor}=="1949", ATTR{idProduct}=="0022", TAG+="uaccess"
+ATTR{idVendor}=="1949", ATTR{idProduct}=="0006", ENV{adb_user}="yes"
+ATTR{idVendor}=="1949", ATTR{idProduct}=="0008", ENV{adb_user}="yes"
+ATTR{idVendor}=="1949", ATTR{idProduct}=="0022", ENV{adb_user}="yes"
 #Acer
-ATTR{idVendor}=="0502", ATTR{idProduct}=="3604", TAG+="uaccess"
-ATTR{idVendor}=="0502", ATTR{idProduct}=="3325", TAG+="uaccess"
-ATTR{idVendor}=="0502", ATTR{idProduct}=="3202", TAG+="uaccess"
-ATTR{idVendor}=="0502", ATTR{idProduct}=="3203", TAG+="uaccess"
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3604", ENV{adb_user}="yes"
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3325", ENV{adb_user}="yes"
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3202", ENV{adb_user}="yes"
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3203", ENV{adb_user}="yes"
 #ASUS
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="179e", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="179f", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="17a1", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c80", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c90", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c91", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="4ca0", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="4ca1", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="4d00", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="4d01", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="4daf", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="5410", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="5412", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="550f", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="7772", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="7773", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="7774", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="7775", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="7776", TAG+="uaccess"
-ATTR{idVendor}=="0b05", ATTR{idProduct}=="7777", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="179e", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="179f", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="17a1", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c80", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c90", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c91", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4ca0", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4ca1", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4d00", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4d01", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4daf", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5410", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5412", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="550f", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="7772", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="7773", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="7774", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="7775", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="7776", ENV{adb_user}="yes"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="7777", ENV{adb_user}="yes"
 #Dell
-ATTR{idVendor}=="413c", TAG+="uaccess"
+ATTR{idVendor}=="413c", ENV{adb_user}="yes"
 # Fairphone 2
-ATTR{idVendor}=="2ae5", TAG+="uaccess"
+ATTR{idVendor}=="2ae5", ENV{adb_user}="yes"
 #Foxconn
-ATTR{idVendor}=="0489", TAG+="uaccess"
+ATTR{idVendor}=="0489", ENV{adb_user}="yes"
 # Fuzhou Rockchip Electronics / Mediacom Smartpad 715i
-ATTR{idVendor}=="2207", ATTR{idProduct}=="0000", TAG+="uaccess"
+ATTR{idVendor}=="2207", ATTR{idProduct}=="0000", ENV{adb_user}="yes"
 # Fuzhou Rockchip Electronics /Ubislate 7Ci
-ATTR{idVendor}=="2207", ATTR{idProduct}=="0010", TAG+="uaccess"
+ATTR{idVendor}=="2207", ATTR{idProduct}=="0010", ENV{adb_user}="yes"
 #Fujitsu & Fujitsu Toshiba
-ATTR{idVendor}=="04c5", TAG+="uaccess"
+ATTR{idVendor}=="04c5", ENV{adb_user}="yes"
 #Garmin-Asus
-ATTR{idVendor}=="091e", TAG+="uaccess"
+ATTR{idVendor}=="091e", ENV{adb_user}="yes"
 #Google
-ATTR{idVendor}=="18d1", TAG+="uaccess"
+ATTR{idVendor}=="18d1", ENV{adb_user}="yes"
 #Haier
-ATTR{idVendor}=="201e", TAG+="uaccess"
+ATTR{idVendor}=="201e", ENV{adb_user}="yes"
 #Hisense
-ATTR{idVendor}=="109b", TAG+="uaccess"
+ATTR{idVendor}=="109b", ENV{adb_user}="yes"
 #HTC
-ATTR{idVendor}=="0bb4", TAG+="uaccess"
+ATTR{idVendor}=="0bb4", ENV{adb_user}="yes"
 #Huawei
-ATTR{idVendor}=="12d1", TAG+="uaccess"
+ATTR{idVendor}=="12d1", ENV{adb_user}="yes"
 #Intel
-ATTR{idVendor}=="8087", ATTR{idProduct}=="09ef", TAG+="uaccess"
-ATTR{idVendor}=="8087", ATTR{idProduct}=="0a16", TAG+="uaccess"
+ATTR{idVendor}=="8087", ATTR{idProduct}=="09ef", ENV{adb_user}="yes"
+ATTR{idVendor}=="8087", ATTR{idProduct}=="0a16", ENV{adb_user}="yes"
 #K-Touch
-ATTR{idVendor}=="24e3", TAG+="uaccess"
+ATTR{idVendor}=="24e3", ENV{adb_user}="yes"
 #KT Tech
-ATTR{idVendor}=="2116", TAG+="uaccess"
+ATTR{idVendor}=="2116", ENV{adb_user}="yes"
 #Kyocera
-ATTR{idVendor}=="0482", TAG+="uaccess"
+ATTR{idVendor}=="0482", ENV{adb_user}="yes"
 #Lenovo
-ATTR{idVendor}=="17ef", TAG+="uaccess"
+ATTR{idVendor}=="17ef", ENV{adb_user}="yes"
 #LG
-ATTR{idVendor}=="1004", TAG+="uaccess"
+ATTR{idVendor}=="1004", ENV{adb_user}="yes"
 #Motorola
-ATTR{idVendor}=="22b8", TAG+="uaccess"
+ATTR{idVendor}=="22b8", ENV{adb_user}="yes"
 #MTK
-ATTR{idVendor}=="0e8d", TAG+="uaccess"
+ATTR{idVendor}=="0e8d", ENV{adb_user}="yes"
 #NEC
-ATTR{idVendor}=="0409", TAG+="uaccess"
+ATTR{idVendor}=="0409", ENV{adb_user}="yes"
 #Nook
-ATTR{idVendor}=="2080", TAG+="uaccess"
+ATTR{idVendor}=="2080", ENV{adb_user}="yes"
 #Nvidia
-ATTR{idVendor}=="0955", TAG+="uaccess"
+ATTR{idVendor}=="0955", ENV{adb_user}="yes"
 #OnePlus
-ATTR{idVendor}=="2a70", TAG+="uaccess"
+ATTR{idVendor}=="2a70", ENV{adb_user}="yes"
 #OTGV
-ATTR{idVendor}=="2257", TAG+="uaccess"
+ATTR{idVendor}=="2257", ENV{adb_user}="yes"
 #Pantech
-ATTR{idVendor}=="10a9", TAG+="uaccess"
+ATTR{idVendor}=="10a9", ENV{adb_user}="yes"
 #Pegatron
-ATTR{idVendor}=="1d4d", TAG+="uaccess"
+ATTR{idVendor}=="1d4d", ENV{adb_user}="yes"
 #Philips
-ATTR{idVendor}=="0471", TAG+="uaccess"
+ATTR{idVendor}=="0471", ENV{adb_user}="yes"
 #PMC-Sierra
-ATTR{idVendor}=="04da", TAG+="uaccess"
+ATTR{idVendor}=="04da", ENV{adb_user}="yes"
 #Qualcomm
-ATTR{idVendor}=="05c6", ATTR{idProduct}=="6769", TAG+="uaccess"
-ATTR{idVendor}=="05c6", ATTR{idProduct}=="9025", TAG+="uaccess"
+ATTR{idVendor}=="05c6", ATTR{idProduct}=="6769", ENV{adb_user}="yes"
+ATTR{idVendor}=="05c6", ATTR{idProduct}=="9025", ENV{adb_user}="yes"
 #SK Telesys
-ATTR{idVendor}=="1f53", TAG+="uaccess"
+ATTR{idVendor}=="1f53", ENV{adb_user}="yes"
 #Samsung
-ATTR{idVendor}=="04e8", TAG+="uaccess"
+ATTR{idVendor}=="04e8", ENV{adb_user}="yes"
 #Sharp
-ATTR{idVendor}=="04dd", TAG+="uaccess"
+ATTR{idVendor}=="04dd", ENV{adb_user}="yes"
 #Sony
-ATTR{idVendor}=="054c", TAG+="uaccess"
+ATTR{idVendor}=="054c", ENV{adb_user}="yes"
 #Sony Ericsson
-ATTR{idVendor}=="0fce", TAG+="uaccess"
+ATTR{idVendor}=="0fce", ENV{adb_user}="yes"
 #Teleepoch
-ATTR{idVendor}=="2340", TAG+="uaccess"
+ATTR{idVendor}=="2340", ENV{adb_user}="yes"
 #Toshiba
-ATTR{idVendor}=="0930", TAG+="uaccess"
+ATTR{idVendor}=="0930", ENV{adb_user}="yes"
 # XiaoMi
-ATTR{idVendor}=="2717", TAG+="uaccess"
+ATTR{idVendor}=="2717", ENV{adb_user}="yes"
 #ZTE
-ATTR{idVendor}=="19d2", ATTR{idProduct}=="1351", TAG+="uaccess"
-ATTR{idVendor}=="19d2", ATTR{idProduct}=="1353", TAG+="uaccess"
-ATTR{idVendor}=="19d2", ATTR{idProduct}=="1354", TAG+="uaccess"
-ATTR{idVendor}=="19d2", ATTR{idProduct}=="1355", TAG+="uaccess"
+ATTR{idVendor}=="19d2", ATTR{idProduct}=="1351", ENV{adb_user}="yes"
+ATTR{idVendor}=="19d2", ATTR{idProduct}=="1353", ENV{adb_user}="yes"
+ATTR{idVendor}=="19d2", ATTR{idProduct}=="1354", ENV{adb_user}="yes"
+ATTR{idVendor}=="19d2", ATTR{idProduct}=="1355", ENV{adb_user}="yes"
 #ZUK
-ATTR{idVendor}=="2b4c", TAG+="uaccess"
+ATTR{idVendor}=="2b4c", ENV{adb_user}="yes"
+
+# Enable device as a user device if found
+ENV{adb_user}=="yes", MODE="0660", GROUP="plugdev", TAG+="uaccess"
 
 LABEL="android_usb_rules_end"

@@ -1,127 +1,134 @@
-# Allwinner / Onda (Unverified)
-SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1001", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1002", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1003", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1004", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1005", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1006", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1007", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1008", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1009", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="1f3a", ATTR{idProduct}=="efe8", TAG+="uaccess"
-# Amazon / Lab126, Inc.
-SUBSYSTEM=="usb", ATTR{idVendor}=="1949", ATTR{idProduct}=="0006", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="1949", ATTR{idProduct}=="0008", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="1949", ATTR{idProduct}=="0022", TAG+="uaccess"
-#Acer
-SUBSYSTEM=="usb", ATTR{idVendor}=="0502", ATTR{idProduct}=="3604", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0502", ATTR{idProduct}=="3325", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0502", ATTR{idProduct}=="3202", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0502", ATTR{idProduct}=="3203", TAG+="uaccess"
-#ASUS
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="179e", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="179f", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="17a1", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c80", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c90", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c91", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="4ca0", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="4ca1", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="4d00", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="4d01", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="4daf", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="5410", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="5412", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="550f", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="7772", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="7773", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="7774", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="7775", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="7776", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="7777", TAG+="uaccess"
-#Dell
-SUBSYSTEM=="usb", ATTR{idVendor}=="413c", TAG+="uaccess"
-# Fairphone 2
-SUBSYSTEM=="usb", ATTR{idVendor}=="2ae5", TAG+="uaccess"
-#Foxconn
-SUBSYSTEM=="usb", ATTR{idVendor}=="0489", TAG+="uaccess"
-# Fuzhou Rockchip Electronics / Mediacom Smartpad 715i
-SUBSYSTEM=="usb", ATTR{idVendor}=="2207", ATTR{idProduct}=="0000", TAG+="uaccess"
-# Fuzhou Rockchip Electronics /Ubislate 7Ci
-SUBSYSTEM=="usb", ATTR{idVendor}=="2207", ATTR{idProduct}=="0010", TAG+="uaccess"
-#Fujitsu & Fujitsu Toshiba
-SUBSYSTEM=="usb", ATTR{idVendor}=="04c5", TAG+="uaccess"
-#Garmin-Asus
-SUBSYSTEM=="usb", ATTR{idVendor}=="091e", TAG+="uaccess"
-#Google
-SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", TAG+="uaccess"
-#Haier
-SUBSYSTEM=="usb", ATTR{idVendor}=="201e", TAG+="uaccess"
-#Hisense
-SUBSYSTEM=="usb", ATTR{idVendor}=="109b", TAG+="uaccess"
-#HTC
-SUBSYSTEM=="usb", ATTR{idVendor}=="0bb4", TAG+="uaccess"
-#Huawei
-SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", TAG+="uaccess"
-#Intel
-SUBSYSTEM=="usb", ATTR{idVendor}=="8087", ATTR{idProduct}=="09ef", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="8087", ATTR{idProduct}=="0a16", TAG+="uaccess"
-#K-Touch
-SUBSYSTEM=="usb", ATTR{idVendor}=="24e3", TAG+="uaccess"
-#KT Tech
-SUBSYSTEM=="usb", ATTR{idVendor}=="2116", TAG+="uaccess"
-#Kyocera
-SUBSYSTEM=="usb", ATTR{idVendor}=="0482", TAG+="uaccess"
-#Lenovo
-SUBSYSTEM=="usb", ATTR{idVendor}=="17ef", TAG+="uaccess"
-#LG
-SUBSYSTEM=="usb", ATTR{idVendor}=="1004", TAG+="uaccess"
-#Motorola
-SUBSYSTEM=="usb", ATTR{idVendor}=="22b8", TAG+="uaccess"
-#MTK
-SUBSYSTEM=="usb", ATTR{idVendor}=="0e8d", TAG+="uaccess"
-#NEC
-SUBSYSTEM=="usb", ATTR{idVendor}=="0409", TAG+="uaccess"
-#Nook
-SUBSYSTEM=="usb", ATTR{idVendor}=="2080", TAG+="uaccess"
-#Nvidia
-SUBSYSTEM=="usb", ATTR{idVendor}=="0955", TAG+="uaccess"
-#OnePlus
-SUBSYSTEM=="usb", ATTR{idVendor}=="2a70", TAG+="uaccess"
-#OTGV
-SUBSYSTEM=="usb", ATTR{idVendor}=="2257", TAG+="uaccess"
-#Pantech
-SUBSYSTEM=="usb", ATTR{idVendor}=="10a9", TAG+="uaccess"
-#Pegatron
-SUBSYSTEM=="usb", ATTR{idVendor}=="1d4d", TAG+="uaccess"
-#Philips
-SUBSYSTEM=="usb", ATTR{idVendor}=="0471", TAG+="uaccess"
-#PMC-Sierra
-SUBSYSTEM=="usb", ATTR{idVendor}=="04da", TAG+="uaccess"
-#Qualcomm
-SUBSYSTEM=="usb", ATTR{idVendor}=="05c6", ATTR{idProduct}=="6769", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="05c6", ATTR{idProduct}=="9025", TAG+="uaccess"
-#SK Telesys
-SUBSYSTEM=="usb", ATTR{idVendor}=="1f53", TAG+="uaccess"
-#Samsung
-SUBSYSTEM=="usb", ATTR{idVendor}=="04e8", TAG+="uaccess"
-#Sharp
-SUBSYSTEM=="usb", ATTR{idVendor}=="04dd", TAG+="uaccess"
-#Sony
-SUBSYSTEM=="usb", ATTR{idVendor}=="054c", TAG+="uaccess"
-#Sony Ericsson
-SUBSYSTEM=="usb", ATTR{idVendor}=="0fce", TAG+="uaccess"
-#Teleepoch
-SUBSYSTEM=="usb", ATTR{idVendor}=="2340", TAG+="uaccess"
-#Toshiba
-SUBSYSTEM=="usb", ATTR{idVendor}=="0930", TAG+="uaccess"
-# XiaoMi
-SUBSYSTEM=="usb", ATTR{idVendor}=="2717", TAG+="uaccess"
-#ZTE
-SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", ATTR{idProduct}=="1351", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", ATTR{idProduct}=="1353", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", ATTR{idProduct}=="1354", TAG+="uaccess"
-SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", ATTR{idProduct}=="1355", TAG+="uaccess"
-#ZUK
-SUBSYSTEM=="usb", ATTR{idVendor}=="2b4c", TAG+="uaccess"
+# Skip this section below if this device is not connected by USB
+SUBSYSTEM!="usb", GOTO="android_usb_rules_end"
 
+# Devices listed here in android_usb_rules_{begin...end} are connected by USB
+LABEL="android_usb_rules_begin"
+
+# Allwinner / Onda (Unverified)
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1001", TAG+="uaccess"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1002", TAG+="uaccess"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1003", TAG+="uaccess"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1004", TAG+="uaccess"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1005", TAG+="uaccess"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1006", TAG+="uaccess"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1007", TAG+="uaccess"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1008", TAG+="uaccess"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="1009", TAG+="uaccess"
+ATTR{idVendor}=="1f3a", ATTR{idProduct}=="efe8", TAG+="uaccess"
+# Amazon / Lab126, Inc.
+ATTR{idVendor}=="1949", ATTR{idProduct}=="0006", TAG+="uaccess"
+ATTR{idVendor}=="1949", ATTR{idProduct}=="0008", TAG+="uaccess"
+ATTR{idVendor}=="1949", ATTR{idProduct}=="0022", TAG+="uaccess"
+#Acer
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3604", TAG+="uaccess"
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3325", TAG+="uaccess"
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3202", TAG+="uaccess"
+ATTR{idVendor}=="0502", ATTR{idProduct}=="3203", TAG+="uaccess"
+#ASUS
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="179e", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="179f", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="17a1", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c80", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c90", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4c91", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4ca0", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4ca1", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4d00", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4d01", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="4daf", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5410", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="5412", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="550f", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="7772", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="7773", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="7774", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="7775", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="7776", TAG+="uaccess"
+ATTR{idVendor}=="0b05", ATTR{idProduct}=="7777", TAG+="uaccess"
+#Dell
+ATTR{idVendor}=="413c", TAG+="uaccess"
+# Fairphone 2
+ATTR{idVendor}=="2ae5", TAG+="uaccess"
+#Foxconn
+ATTR{idVendor}=="0489", TAG+="uaccess"
+# Fuzhou Rockchip Electronics / Mediacom Smartpad 715i
+ATTR{idVendor}=="2207", ATTR{idProduct}=="0000", TAG+="uaccess"
+# Fuzhou Rockchip Electronics /Ubislate 7Ci
+ATTR{idVendor}=="2207", ATTR{idProduct}=="0010", TAG+="uaccess"
+#Fujitsu & Fujitsu Toshiba
+ATTR{idVendor}=="04c5", TAG+="uaccess"
+#Garmin-Asus
+ATTR{idVendor}=="091e", TAG+="uaccess"
+#Google
+ATTR{idVendor}=="18d1", TAG+="uaccess"
+#Haier
+ATTR{idVendor}=="201e", TAG+="uaccess"
+#Hisense
+ATTR{idVendor}=="109b", TAG+="uaccess"
+#HTC
+ATTR{idVendor}=="0bb4", TAG+="uaccess"
+#Huawei
+ATTR{idVendor}=="12d1", TAG+="uaccess"
+#Intel
+ATTR{idVendor}=="8087", ATTR{idProduct}=="09ef", TAG+="uaccess"
+ATTR{idVendor}=="8087", ATTR{idProduct}=="0a16", TAG+="uaccess"
+#K-Touch
+ATTR{idVendor}=="24e3", TAG+="uaccess"
+#KT Tech
+ATTR{idVendor}=="2116", TAG+="uaccess"
+#Kyocera
+ATTR{idVendor}=="0482", TAG+="uaccess"
+#Lenovo
+ATTR{idVendor}=="17ef", TAG+="uaccess"
+#LG
+ATTR{idVendor}=="1004", TAG+="uaccess"
+#Motorola
+ATTR{idVendor}=="22b8", TAG+="uaccess"
+#MTK
+ATTR{idVendor}=="0e8d", TAG+="uaccess"
+#NEC
+ATTR{idVendor}=="0409", TAG+="uaccess"
+#Nook
+ATTR{idVendor}=="2080", TAG+="uaccess"
+#Nvidia
+ATTR{idVendor}=="0955", TAG+="uaccess"
+#OnePlus
+ATTR{idVendor}=="2a70", TAG+="uaccess"
+#OTGV
+ATTR{idVendor}=="2257", TAG+="uaccess"
+#Pantech
+ATTR{idVendor}=="10a9", TAG+="uaccess"
+#Pegatron
+ATTR{idVendor}=="1d4d", TAG+="uaccess"
+#Philips
+ATTR{idVendor}=="0471", TAG+="uaccess"
+#PMC-Sierra
+ATTR{idVendor}=="04da", TAG+="uaccess"
+#Qualcomm
+ATTR{idVendor}=="05c6", ATTR{idProduct}=="6769", TAG+="uaccess"
+ATTR{idVendor}=="05c6", ATTR{idProduct}=="9025", TAG+="uaccess"
+#SK Telesys
+ATTR{idVendor}=="1f53", TAG+="uaccess"
+#Samsung
+ATTR{idVendor}=="04e8", TAG+="uaccess"
+#Sharp
+ATTR{idVendor}=="04dd", TAG+="uaccess"
+#Sony
+ATTR{idVendor}=="054c", TAG+="uaccess"
+#Sony Ericsson
+ATTR{idVendor}=="0fce", TAG+="uaccess"
+#Teleepoch
+ATTR{idVendor}=="2340", TAG+="uaccess"
+#Toshiba
+ATTR{idVendor}=="0930", TAG+="uaccess"
+# XiaoMi
+ATTR{idVendor}=="2717", TAG+="uaccess"
+#ZTE
+ATTR{idVendor}=="19d2", ATTR{idProduct}=="1351", TAG+="uaccess"
+ATTR{idVendor}=="19d2", ATTR{idProduct}=="1353", TAG+="uaccess"
+ATTR{idVendor}=="19d2", ATTR{idProduct}=="1354", TAG+="uaccess"
+ATTR{idVendor}=="19d2", ATTR{idProduct}=="1355", TAG+="uaccess"
+#ZUK
+ATTR{idVendor}=="2b4c", TAG+="uaccess"
+
+LABEL="android_usb_rules_end"

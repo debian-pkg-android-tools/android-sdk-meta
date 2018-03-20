@@ -15,8 +15,8 @@ Architecture: amd64 i386 armel armhf arm64 mips mipsel mips64el
 Depends: android-sdk-build-tools,
          android-sdk-common (>= ${source:Version}),
          android-sdk-platform-tools (>= 20),
-         android-platform-tools-base (>= 2.0.0),
-         default-jre-headless (>= 2:1.8) | java8-runtime-headless,
+         android-platform-tools-base (>= 2.2.2-3),
+         default-jdk-headless (>= 2:1.8) | default-jdk (>= 2:1.8) | oracle-java8-jdk | oracle-java9-jdk | oracle-java8-installer | oracle-java9-installer,
          proguard-cli,
          ${misc:Depends}
 Recommends: gradle, default-jdk-headless

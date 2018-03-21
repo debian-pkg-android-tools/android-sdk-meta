@@ -1,3 +1,11 @@
+android-sdk-meta (25.0.0+8) unstable; urgency=medium
+
+  * include /usr/bin/screenshot2 as symlink
+  * also support Oracle JDK, do not require only OpenJDK
+  * add alternate vendor ID for Fairphone 2
+
+ -- Hans-Christoph Steiner <hans@eds.org>  Wed, 21 Mar 2018 09:47:16 +0100
+
 android-sdk-meta (25.0.0+7) unstable; urgency=medium
 
   * tighten up udev rules

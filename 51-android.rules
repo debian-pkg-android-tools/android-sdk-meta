@@ -49,6 +49,8 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="0b05", ATTR{idProduct}=="7777", ENV{adb_user}
 SUBSYSTEM=="usb", ATTR{idVendor}=="413c", ENV{adb_user}="yes"
 # Fairphone 2
 SUBSYSTEM=="usb", ATTR{idVendor}=="2ae5", ENV{adb_user}="yes"
+# Fairphone 2 aka Qualcomm, Inc.
+SUBSYSTEM=="usb", ATTR{idVendor}=="05c6", ATTR{idProduct}=="901d", ENV{adb_user}="yes"
 #Foxconn
 SUBSYSTEM=="usb", ATTR{idVendor}=="0489", ENV{adb_user}="yes"
 # Fuzhou Rockchip Electronics / Mediacom Smartpad 715i
